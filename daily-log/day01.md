@@ -17,9 +17,6 @@ Git basics, repo setup, GitHub profile.
 ## 📐 Maths
 - 3Blue1Brown — Essence of Linear Algebra, Ep. 1: Vectors
 
-## 💭 Notes / doubts
-- (anything that confused you today, or a question to revisit)
-
 ## ✅ Done when
 - [x] Repo live on GitHub with README
 - [x] GitHub profile README live
