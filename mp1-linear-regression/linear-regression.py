@@ -34,3 +34,11 @@ plt.show()
 print("J(w=0, b=0) =", compute_cost(x, y, 0, 0))
 print("J(w=9500, b=25000) =", compute_cost(x, y, 9500, 25000))
 print("J(w=10000, b=0) =", compute_cost(x, y, 10000, 0))
+
+# Sanity check: a perfect line should give a cost of exactly 0
+x_test = np.array([1, 2, 3])
+y_test = np.array([2, 4, 6])
+
+assert np.isclose(compute_cost(x_test, y_test, 2, 0), 0), "Perfect line should have cost 0"
+assert np.isclose(compute_cost(x_test, y_test, 3, 0), 14 / 6), "Hand calculation mismatch"
+print("Sanity checks passed")
