@@ -10,6 +10,13 @@ def load_data(path):
     y = df["Salary"].to_numpy()
     return x,y
 
+def compute_cost(x, y, w, b):
+    m = len(x)
+    predictions = w * x + b
+    errors = predictions - y
+    cost = np.sum(errors ** 2) / (2 * m)
+    return cost
+
 BASE_DIR = Path(__file__).parent
 x, y = load_data(BASE_DIR / "data" / "Salary_Data.csv")
 print("Number of examples: ", len(x))
@@ -23,3 +30,7 @@ plt.ylabel("Salary")
 plt.title("Salary vs Years of Experience")
 plt.savefig(BASE_DIR / "plots" / "data_scatter.png")
 plt.show()
+
+print("J(w=0, b=0) =", compute_cost(x, y, 0, 0))
+print("J(w=9500, b=25000) =", compute_cost(x, y, 9500, 25000))
+print("J(w=10000, b=0) =", compute_cost(x, y, 10000, 0))
