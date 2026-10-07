@@ -1,6 +1,6 @@
 # 🧠 60-Day AI/ML Journey
 
-`ROADMAP` `IN PROGRESS` `Day 1 / 60` `Last Updated: October 2026`
+`ROADMAP` `IN PROGRESS` `Day 3 / 60` `Last Updated: October 2026`
 
 ## 👋 Introduction
 
@@ -14,10 +14,10 @@ Welcome to my 60-day AI/ML foundation journey! This repository documents my path
 
 | Category | Skills | Progress |
 |---|---|---|
-| Programming | Git & GitHub, Linux/shell | 🟢⚪⚪⚪⚪ |
+| Programming | Git & GitHub, Linux/shell | 🟢🟢⚪⚪⚪ |
 | Data Engineering | PostgreSQL, SQL | ⚪⚪⚪⚪⚪ |
-| Math for ML | Linear Algebra, Calculus, Probability & Stats | ⚪⚪⚪⚪⚪ |
-| Machine Learning | Andrew Ng's ML Specialization, core ML concepts, from-scratch models | ⚪⚪⚪⚪⚪ |
+| Math for ML | Linear Algebra, Calculus, Probability & Stats | 🟢⚪⚪⚪⚪ |
+| Machine Learning | Andrew Ng's ML Specialization, core ML concepts, from-scratch models | 🟢⚪⚪⚪⚪ |
 | Deep Learning & AI | PyTorch, LLMs, RAG, agents | ⚪⚪⚪⚪⚪ |
 | Quantum Computing | Qiskit, quantum basics | ⚪⚪⚪⚪⚪ |
 
@@ -44,7 +44,7 @@ My 60-day journey is divided into 5 phases:
 
 | Phase | Status | Completion |
 |---|---|---|
-| 1. Foundations | 🟡 In Progress | 0% (Day 1/8) |
+| 1. Foundations | 🟡 In Progress | 38% (Day 3/8) |
 | 2. PostgreSQL + research sprint | ⚪ Not Started | 0% |
 | 3. Flagship project | ⚪ Not Started | 0% |
 | 4. Deep learning, LLMs, quantum | ⚪ Not Started | 0% |
@@ -56,7 +56,7 @@ My 60-day journey is divided into 5 phases:
 
 | Project | Topic | Status |
 |---|---|---|
-| MP1 | Linear regression from scratch | ⚪ Not Started |
+| MP1 | Linear regression from scratch | 🟡 In Progress |
 | MP2 | Data pipeline CLI | ⚪ Not Started |
 | MP3 | PostgreSQL analytics project | ⚪ Not Started |
 | MP4 | EDA notebook | ⚪ Not Started |
@@ -73,6 +73,8 @@ My 60-day journey is divided into 5 phases:
 ## 📝 Daily Log
 
 - [x] **Day 1** — Git basics, repo setup, GitHub profile README → started MP1
+- [x] **Day 2** — Branches and merging, linear regression cost function → MP1: data loading, scatter plot, vectorized cost function
+- [x] **Day 3** — Gradient descent, GitHub remotes → MP1: gradient descent from scratch, loss curve, learning-rate comparison
 
 ---
 
